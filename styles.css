@@ -3,17 +3,16 @@ body{
 
     
 }
-.left{
+/* .left{
     display: inline-block;
     position: absolute;
-   top: 22px;
+   top: 40px;
    left : 20px;
 }
  .left img{
     width: 200px;
-    /* filter: invert(100%); */
     
- }  
+ }   */
  /* .mid{
     margin: 12px auto;
     display: flex;
@@ -22,50 +21,32 @@ body{
     
  } */
  .navbar{
-    margin-left: 380px;
+    margin-top:-6px;
+    margin-left: -10px;
+    align-items: center;
+    justify-content: center;
     display: flex;
-    gap: 10px;
+    
+    height: 60px;
+    background: rgb(30, 26, 42);
    }
+
 .navbar li{
-    display: inline-block;
-    padding: 2px;
+    display: flex;
+    justify-content: space-around;
     font-size: 15px;
 }
 .navbar li a{
     font-style: italic;
     color: #fff;
     text-decoration: none;
-    padding:3px;
+    margin: 0 40px;
 }
 .navbar li a:hover{
     text-decoration:underline;
     color:aqua;
 }
- /* .mid{
-    width: 40%;
-    margin:200px 50px;
-    display: block;
-    
-    
-} 
-.navbar{
- display: inline-block;
- text-align: center;
-}
-.navbar li{
-    display: inline-block;
-    padding: 10px;
-    font-size: 20px;
-}
-.navbar li a{
-    color: #fff;
-    text-decoration: none;
-    padding: 20px 20px;
-}
-.navbar li a:hover{
-    color: violet;
-    text-decoration: underline;
-} */
+ 
    .right{
     /* margin: 8%; */
     position: absolute;
@@ -93,6 +74,9 @@ body{
         position: absolute;
         top: 300px;
         left: 200px;
+        /* box-shadow: 4px 8px 4px 4px #888888; */
+        box-shadow: 0 8px 6px -6px rgb(189, 189, 133);
+
         font-size: 20px;
         color: #fff;
 
@@ -121,6 +105,7 @@ body{
         padding-left: 5px;
         border: 2px solid #fff;
         border-radius: 30px;
+        box-shadow: 5px 10px 8px 10px #888888;
         position: relative;
         top: 900px;
         left: 200px;
@@ -165,6 +150,8 @@ body{
         padding-left: 5px;
         border: 2px solid #fff;
         border-radius: 30px;
+        box-shadow: 5px 10px 8px 10px #888888;
+
         position: relative;
         top: 1300px;
         left: 500px;
@@ -212,6 +199,8 @@ body{
     padding-left: 5px;
     border: 2px solid black;
     border-radius: 30px;
+    box-shadow: 5px 10px 8px 10px #888888;
+
     position: relative;
     top: 1600px;
     left: 500px;
@@ -243,6 +232,8 @@ body{
     padding-left: 5px;
     border: 2px solid black;
     border-radius: 30px;
+    box-shadow: 5px 10px 8px 10px #888888;
+
     position: relative;
     top: 2000px;
     left: 500px;
