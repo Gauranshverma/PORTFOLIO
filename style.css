@@ -1,0 +1,68 @@
+body{
+    background: url(port.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{
+    font-size: large;
+    color: azure;
+    font-size: 60px;
+    font-style: bold;
+    text-align: center;
+    position: relative;
+    top: 330px;
+    left: 10px;
+}
+h1:hover{
+    color: rgb(218, 24, 188);
+    text-decoration: underline;
+}
+P{
+    color:azure ;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 330px;
+}
+P:hover{
+    color: rgb(218, 24, 188);
+    text-decoration: underline;
+}
+.info{
+    text-align: center;
+    position: relative;
+    top: 350px;
+    left: 650px;
+    border: 2px solid rgb(155, 88, 33);
+    border-radius: 4px;
+    border-width: 2px;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    transition: box-shadow .15s,transform .15s;
+    background-color: rgb(215, 205, 215);
+    cursor: pointer;
+    text-decoration: none;
+    width: 70rem;
+    height: 150px;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: hidden;
+    
+   
+}
+
+
+
+@media only screen and (max-width:1000px){
+    .info{
+        visibility: visible;
+    }
+    .h1{
+        visibility: visible;
+    }
+    .p{
+        visibility: visible;
+    }
+}
+
+  
